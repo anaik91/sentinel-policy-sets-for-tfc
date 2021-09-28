@@ -17,7 +17,7 @@ policy "enforce-mandatory-labels" {
 
 policy "restrict-gce-machine-type" {
     source = "./restrict-gce-machine-type.sentinel"
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "hard-mandatory"
 }
 
 policy "enforce-mandatory-dataproc" {
